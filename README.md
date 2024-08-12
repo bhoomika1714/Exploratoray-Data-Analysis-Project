@@ -37,7 +37,11 @@ We have used GridSearchCV to perform hyperparameter tuning for a CatBoost Regres
 Hyperparameter tuning is crucial as it helps in enhancing model performance, preventing overfitting, and ensuring the model is efficient and well-suited for the given dataset.
 
 
+
+
+
 # RMSE SCORE USING DIFFERENT MACHINE LEARNING MODELS
+
 ![Screenshot 2024-08-13 001550](https://github.com/user-attachments/assets/8fd4db0d-94dd-4466-b163-9d70beff51b2)
 
 
