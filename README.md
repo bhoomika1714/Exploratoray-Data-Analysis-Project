@@ -24,7 +24,7 @@ This encoding technique uses the relationship between the categorical feature an
 By using Target Encoding, we effectively encode categorical variables into meaningful numerical representations that preserve their relationship with the target variable. 
 This process helps improve the predictive power of the models and handles high-cardinality features efficiently.payer_type', 'patient_state', 'Region', 'Division', 'patient_gender', 'breast_cancer_diagnosis_code', 'metastatic_cancer_diagnosis_code' these are our target columns.
 
-#Feature Selection
+# Feature Selection
 While developing the machine learning model, only a few variables in the dataset are useful for building the model, and the rest features are either redundant or irrelevant. 
 If we input the dataset with all these redundant and irrelevant features, it may negatively impact and reduce the overall performance and accuracy of the model.
  Hence, it is very important to identify and select the most appropriate features from the data and remove the irrelevant or less important features, which is done with the help of feature selection in machine learning. 
@@ -32,6 +32,9 @@ We used an 80-20 split ratio with the train_test_split function from sklearn.   
  random_state=100 was set to ensure the split is reproducible.
 selected_features ->'patient_id','payer_type', 'patient_age', 'metastatic_cancer_diagnosis_code’.
 
+# Hyperparameter Tuning!
+We have used GridSearchCV to perform hyperparameter tuning for a CatBoost Regressor, evaluating different combinations of depth, learning_rate, and iterations to find the best model. 
+Hyperparameter tuning is crucial as it helps in enhancing model performance, preventing overfitting, and ensuring the model is efficient and well-suited for the given dataset.
 
 
 
