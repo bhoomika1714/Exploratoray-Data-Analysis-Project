@@ -47,4 +47,7 @@ Hyperparameter tuning is crucial as it helps in enhancing model performance, pre
 # Port-Folio Link:
 https://sites.google.com/view/portfolio-bhoomika/home
 
+# Rank 
+![Screenshot 2024-08-26 190821](https://github.com/user-attachments/assets/f648f30d-3086-4540-b709-47bd81a96991)
+
 
